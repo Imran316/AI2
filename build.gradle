@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.imran'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.google.firebase:firebase-admin:6.5.0'
+    compile 'org.apache.poi:poi-ooxml:3.9'
+}
